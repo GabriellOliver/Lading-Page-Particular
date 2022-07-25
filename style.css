@@ -1,0 +1,164 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+}
+
+#container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+    background: #202030;
+    align-items: center;
+    height: 900px;
+}
+
+#container img {
+ width: 130px;
+ margin: 130px 300px 80px 300px 
+}
+
+h1 {
+    width: 600px;
+    font-size: 2.7em;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#container p {
+    width: 500px;
+    align-items: center;
+}
+
+button:hover {
+    background: #8d0958;
+}
+ #cta {
+    width: 190px;
+    height: 50px;
+    background: #c52184;
+    color: #fff;
+    border-radius: 70px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1.2em;
+    box-shadow:0  5px 0 #8d0958;
+    }
+
+#container .cta {
+    margin: 80px 300px 60px 300px;
+}
+
+#iframe {
+  
+}
+
+#conteudo {
+    background: #171726;
+    height: 700px;
+}
+
+/* conteudo */
+
+#conteudo-center{
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+input {
+    width: 300px;
+    padding: 13px;
+    border-radius: 20px;
+    border: none;
+}
+
+#entregas {
+    
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+#entregas p {
+    padding-bottom: 32px;
+    color:white;
+    font-size: 0.9em;
+    font-weight: 300;
+    width: 400px;
+    flex-wrap: wrap;
+    margin: 0 200px 0px 30px;
+}
+
+#entregas h3 {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    padding-bottom: 35px;
+    font-weight: 400;
+    margin-right: 200px;
+
+}
+
+#form {
+    width: 300px;
+    border: none;
+    margin-top: 170px;
+}
+
+#form #cta {
+    margin-top: 10px;
+    width: 300px;
+    height: 43px;
+    box-shadow:0  5px 5px #8d0958;
+}
+
+#form .input {
+   padding-bottom: 7px;
+}
+#icones {
+   
+}
+
+.icone {
+    margin: 175px 0px 40px 0px;
+
+}
+.icone-1 {
+    margin: 30px 0px 42px 0px;
+}
+.icone-2 {
+    margin: 30px 0px 40px 0px;
+}
+.icone-3 {
+    margin: 30px 0px 40px 0px;
+}
+
+#form h3 {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 350;
+    width: 330px;
+    margin-bottom: 20px;
+}
+
+#rodape {
+    background: #202030;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+    padding: 20px;
+    
+}
+
+#rodape img {
+    width: 170px;
+}
